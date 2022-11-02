@@ -1,0 +1,59 @@
+body {
+  background-color: #aaccd2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  color: #C4DF7F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+img {
+  width: 150px;
+  border-radius: 20%;
+  align-items: center;
+}
+
+a {
+  color: #3D7424;
+}
+
+a:hover {
+  color: #37542A;
+}
+
+.card{
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
